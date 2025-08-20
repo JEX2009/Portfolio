@@ -1,8 +1,8 @@
 import '/src/assets/Tailwind.css'
 import { LuGithub } from "react-icons/lu";
-import Portfolio from '/src/assets/images/Portfolio.png'
-import Bank from '/src/assets/images/Bank.png'
-import PosSystem from '/src/assets/images/PosSystem.png'
+import Portfolio from '../assets/Portfolio.png'
+import Bank from '../assets/Bank.png'
+import PosSystem from '../assets/PosSystem.png'
 
 export function Proyects() {
 

@@ -9,7 +9,8 @@ export function About_me() {
                     <h2 className="text-3xl font-bold mb-4 tracking-wide text-white"> Hello <br />I'm Jason</h2>
                     <h3 className="text-3x0 font-bold mb-4 tracking-wide text-white">Full Stack Developer</h3>
                     <div className='flex gap-4 mt-4 '>
-                        <a href="`${import.meta.env.BASE_URL}Jason_Reynaldo_Orozco_Ruiz.pdf`" target="_blank" rel="noopener noreferrer">
+                        <a href={`${import.meta.env.BASE_URL}Jason_Reynaldo_Orozco_Ruiz.pdf`}
+                            target="_blank" rel="noopener noreferrer">
                             <button type="button" className='text-white border border-orange-900 p-2 cursor-pointer' >My Resume</button>
                         </a>
                     </div>
