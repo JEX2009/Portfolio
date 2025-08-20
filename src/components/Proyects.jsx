@@ -1,10 +1,10 @@
 import '/src/assets/Tailwind.css'
 import { LuGithub } from "react-icons/lu";
+import Portfolio from '/src/assets/images/Portfolio.png'
+import Bank from '/src/assets/images/Bank.png'
+import PosSystem from '/src/assets/images/PosSystem.png'
 
 export function Proyects() {
-    const Portfolio = "/Portfolio.png";
-    const Bank = "/Bank.png";
-    const PosSystem = "/PosSystem.png";
 
     return (
         <>
