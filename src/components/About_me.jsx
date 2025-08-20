@@ -1,14 +1,7 @@
 import '/src/assets/Tailwind.css'
 import { FaComputer } from "react-icons/fa6";
-import resume from '/src/assets/Jason_Reynaldo_Orozco_Ruiz.pdf'
 
 export function About_me() {
-
-    const handleAbrirPdf = () => {
-        window.open(resume, "_blank");
-    };
-
-
     return (
         <>
             <div className="p-8 flex gap-8 mt-20 justify-evenly items-center">
