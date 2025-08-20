@@ -16,13 +16,15 @@ export function About_me() {
                     <h2 className="text-3xl font-bold mb-4 tracking-wide text-white"> Hello <br />I'm Jason</h2>
                     <h3 className="text-3x0 font-bold mb-4 tracking-wide text-white">Full Stack Developer</h3>
                     <div className='flex gap-4 mt-4 '>
-                        <button type="button" className='text-white border border-orange-900 p-2 cursor-pointer' onClick={handleAbrirPdf}>My Resume</button>
+                        <a href="`${import.meta.env.BASE_URL}Jason_Reynaldo_Orozco_Ruiz.pdf`" target="_blank" rel="noopener noreferrer">
+                            <button type="button" className='text-white border border-orange-900 p-2 cursor-pointer' >My Resume</button>
+                        </a>
                     </div>
                 </div>
                 <div className='w-50 h-50 rounded-full outline-2 outline-offset-2 outline-amber-800 grid grid-cols-2 grid-rows-2 justify-items-center items-center'>
                     <span className="text-amber-800 text-7xl ">&lt;</span>
                     <span>&nbsp;</span>
-                    <span>&nbsp;</span>  
+                    <span>&nbsp;</span>
                     <span className="text-amber-800 text-7xl">&gt;</span>
                 </div>
             </div>
@@ -41,7 +43,7 @@ export function About_me() {
                     <h3 className='text-3xl font-bold mb-4 text-white'>About me</h3>
                     <p className='text-3x0 text-white'>My journey into the world of software was born from a deep cur   iosity to transform ideas into something real. It was a fascination with the process of creating from scratch that first drove me. Since then, software development has become my passion, as it fulfills my love for constant learning and the challenge of building things that work and provide value.</p>
                 </div>
-                
+
             </div>
         </>
     )
