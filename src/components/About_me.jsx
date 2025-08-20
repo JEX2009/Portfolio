@@ -1,9 +1,9 @@
 import '/src/assets/Tailwind.css'
 import { FaComputer } from "react-icons/fa6";
-
+import resume from '/src/assets/Jason_Reynaldo_Orozco_Ruiz.pdf'
 
 export function About_me() {
-    const resume = "/Jason_Reynaldo_Orozco_Ruiz.pdf";
+
     const handleAbrirPdf = () => {
         window.open(resume, "_blank");
     };
