@@ -11,7 +11,7 @@ export function Contact_me() {
                 <div className='flex flex-col items-center gap-4'>
                     <p className="text-white text-center text-lg text-wrap">
                         If you have any questions, suggestions, or just want to say hello, feel free to reach out!
-                        I'm always open to new opportunities and collaborations. 
+                        I'm always open to new opportunities and collaborations.
                     </p>
                     <p className="text-white text-center text-lg text-wrap">Click in the icons below to contact me via email or LinkedIn.</p>
                     <div className='flex gap-4'>
@@ -19,15 +19,21 @@ export function Contact_me() {
                             color='white'
                             size={32}
                             onClick={() => window.location.href = 'mailto:orozcojason816@gmail.com'}
-                            className='cursor-pointer transition-transform duration-200 hover:scale-125' 
-                        />
-
-                        <FaLinkedin
-                            color='white'
-                            size={32}
-                            onClick={() => window.location.href = 'https://www.linkedin.com/in/jason-orozco-ruiz-65b149252'}
                             className='cursor-pointer transition-transform duration-200 hover:scale-125'
                         />
+
+                        <a
+                            href="https://www.linkedin.com/in/jason-orozco-ruiz-65b149252"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="Visitar perfil de LinkedIn" 
+                        >
+                            <FaLinkedin
+                                color='white'
+                                size={32}
+                                className='cursor-pointer transition-transform duration-200 hover:scale-125'
+                            />
+                        </a>
                     </div>
                 </div>
             </div>
