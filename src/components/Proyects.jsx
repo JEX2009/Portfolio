@@ -14,11 +14,11 @@ export function Proyects() {
                 <div className='h-20 w-1 bg-teal-400 rounded-full mt-2'></div>
                 
                 <h2 className="text-5xl font-extrabold mt-8 mb-4 tracking-wider text-white"> 
-                    PROYECTOS DESTACADOS
+                    FEATURED PROJECTS
                 </h2>
                 <p className="text-center text-gray-300 text-xl max-w-3xl mb-12">
-                    Aquí encontrarás una selección de mis trabajos más relevantes, desarrollados con diversas tecnologías.
-                    ¡Explora el código en GitHub!
+                    Here you'll find a selection of my most relevant work, developed using various technologies.
+                    Explore the code on GitHub!
                 </p>
             </div>
             
@@ -26,12 +26,12 @@ export function Proyects() {
                 
                 <div className='bg-gray-800 p-6 rounded-xl shadow-2xl hover:shadow-cyan-500/50 transition-all duration-500 flex flex-col h-full'>
                     <h3 className="text-3xl font-bold text-teal-400 mb-4 text-center">
-                        Website Portfolio
+                        Therapy Management System
                     </h3>
                     
                     <img 
                         src={TherapySystem} 
-                        alt="Imagen of the website portfolio" 
+                        alt="Image of the therapy system website" 
                         className='w-full h-auto object-cover rounded-lg mb-4 border-2 border-cyan-500/50' 
                         loading="lazy" 
                     />
@@ -60,7 +60,7 @@ export function Proyects() {
                     
                     <img 
                         src={Bank} 
-                        alt="Imagen of the money envelopes system" 
+                        alt="Image of the money envelopes system" 
                         className='w-full h-auto object-cover rounded-lg mb-4 border-2 border-cyan-500/50' 
                         loading="lazy" 
                     />
@@ -84,18 +84,18 @@ export function Proyects() {
                 
                 <div className='bg-gray-800 p-6 rounded-xl shadow-2xl hover:shadow-cyan-500/50 transition-all duration-500 flex flex-col h-full'>
                     <h3 className="text-3xl font-bold text-teal-400 mb-4 text-center">
-                        PosSystem
+                        POS System
                     </h3>
                     
                     <img 
                         src={PosSystem} 
-                        alt="Imagen of the money envelopes system" 
+                        alt="Image of the money envelopes system" 
                         className='w-full h-auto object-cover rounded-lg mb-4 border-2 border-cyan-500/50' 
                         loading="lazy" 
                     />
                     
                     <p className="text-gray-300 text-base mb-6 flex-grow">
-                        A Point of Sale (POS) system designed for small businesses. Built with React and Django, it still in development but aims to provide a user-friendly interface for managing sales, inventory, and customer data.
+                        A Point of Sale (POS) system designed for small businesses. Built with React and Django, it is still in development but aims to provide a user-friendly interface for managing sales, inventory, and customer data.
                     </p>
                     
                     <div className='mt-auto flex justify-center'>
@@ -111,6 +111,4 @@ export function Proyects() {
                     </div>
                 </div>
             </div>
-        </>
-    )
-}
+        </
