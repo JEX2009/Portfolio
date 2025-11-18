@@ -1,6 +1,6 @@
 import '/src/assets/Tailwind.css'
 import { LuGithub } from "react-icons/lu";
-import Portfolio from '../assets/Portfolio.png'
+import TherapySystem from '../assets/TherapySystem.png'
 import Bank from '../assets/Bank.png'
 import PosSystem from '../assets/PosSystem.png'
 
@@ -22,15 +22,15 @@ export function Proyects() {
                 <div className='bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 text-center grid grid-cols-1 grid-rows-2 items-center gap-4'>
                     <h3 className="text-2xl font-semibold text-white mb-4">Website Portfolio</h3>
                     <p className="text-white mb-2">
-                        This is my personal portfolio website, built with React and Tailwind CSS. It showcases my skills, projects, and contact information in a modern and responsive design.
+                        This is a full-stack project that implements a comprehensive management system for a daycare center or clinical care facility, focused on the administration of patients, medical appointments, tests, and reports. It demonstrates strong experience in building robust, secure APIs with Python (Django) and creating dynamic, responsive user interfaces with React.js. A significant challenge during the enterprise implementation was the initial learning curve involved in designing and delivering features for dynamic configuration of medical tests and the reliable, efficient generation of complex clinical reports from large datasets, skills which were successfully mastered and deployed.
                     </p>
-                    <img src={Portfolio} alt="Imagen of the website portfolio" className='border border-sky-50  shadow drop-shadow-cyan-500/50 mb-2 rounded-lg' loading="lazy" />
+                    <img src={TherapySystem} alt="Imagen of the website portfolio" className='border border-sky-50  shadow drop-shadow-cyan-500/50 mb-2 rounded-lg' loading="lazy" />
                     <div className='flex items-center justify-center gap-2 mt-4 border border-sky-50 rounded-xl p-1 '>
                         <LuGithub
                             color='white'
                             size={30}
                         />
-                        <a href="https://github.com/JEX2009/Portfolio.git" className="text-blue-500 hover:underline" target='_blank'>View on GitHub</a>
+                        <a href="https://github.com/JEX2009/Centro-Diurno-Francisca-Valerio.git" className="text-blue-500 hover:underline" target='_blank'>View on GitHub</a>
                     </div>
                 </div>
                 <div className='bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 text-center grid grid-cols-1 grid-rows-2 items-center gap-4'>
